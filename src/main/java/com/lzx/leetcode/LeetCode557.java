@@ -9,12 +9,15 @@ package com.lzx.leetcode;
  */
 public class LeetCode557 implements LeetCodeProblem {
 
-
+    @Override
     public void execute(Object... args) {
         System.out.println(reverseWords((String) args[0]));
     }
 
 
+    /**
+     * 双指针
+     */
     public String reverseWords(String s) {
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {

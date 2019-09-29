@@ -9,12 +9,15 @@ package com.lzx.leetcode;
  */
 public class LeetCode724 implements LeetCodeProblem {
 
-
+    @Override
     public void execute(Object... args) {
         System.out.println(pivotIndex((int[]) args[0]));
     }
 
 
+    /**
+     * 动态规划
+     */
     public int pivotIndex(int[] nums) {
         //sum[0]位标识位,sum[1]存放nums中第一位的值（nums[0]）
         int[] sum = new int[nums.length + 1];
