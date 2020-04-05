@@ -5,7 +5,7 @@ package com.lzx.leetcode;
  * https://leetcode-cn.com/problems/find-pivot-index/
  *
  * @author : lzx
- * created on 2019/9/29 23:35
+ * @since 2019/9/29 23:35
  */
 public class LeetCode724 implements LeetCodeProblem {
 

@@ -7,7 +7,7 @@ import java.util.Arrays;
  * https://leetcode-cn.com/problems/duplicate-zeros/
  *
  * @author : lzx
- * created on 2019/9/30 1:06
+ * @since 2019/9/30 1:06
  */
 public class LeetCode1089 implements LeetCodeProblem {
 

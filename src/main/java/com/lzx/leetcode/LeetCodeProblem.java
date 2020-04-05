@@ -2,7 +2,7 @@ package com.lzx.leetcode;
 
 /**
  * @author : lzx
- * created on 2019/9/14 16:57
+ * @since 2019/9/14 16:57
  */
 public interface LeetCodeProblem {
 
